@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="MFinder mở rộng Finder với tìm kiếm nhanh, File Shelf, nén giải nén, Quick Look Markdown, tối ưu ảnh và nhiều thao tác file hữu ích.">
+  <meta property="og:title" content="MFinder — Finder mạnh mẽ hơn">
+  <meta property="og:description" content="Công cụ file mạnh mẽ, tích hợp vào Finder.">
+  <meta property="og:image" content="assets/brand/mfinder-icon.png">
+  <title>MFinder — Finder mạnh mẽ hơn</title>
+  <link rel="icon" type="image/png" href="assets/brand/mfinder-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "MFinder",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "macOS 26 or later",
+    "description": "A native Finder extension utility for search, file actions, Quick Look, archives, images and temporary file storage."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Đi tới nội dung</a>
+
+  <header class="site-header" data-header>
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="MFinder — Trang chủ">
+        <img src="assets/brand/mfinder-icon.png" alt="" width="48" height="48">
+        <span>MFinder</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+        <span class="sr-only">Mở menu</span>
+        <span></span><span></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" data-nav>
+        <a href="#features">Tính năng</a>
+        <a href="#shelf">File Shelf</a>
+        <a href="#quick-look">Quick Look</a>
+        <a href="#privacy">Riêng tư</a>
+        <a class="nav-cta" href="https://github.com/maclifevn/MFinder-Releases/releases/latest/download/MFinder.dmg">Tải MFinder</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Tiện ích Finder thuần macOS</div>
+          <h1>Tiện ích mở rộng. <span>cho Finder.</span></h1>
+          <p class="hero-lead">Tìm kiếm nhanh, mở Terminal tại thư mục đang đứng, nén &amp; giải nén, xem trước Markdown, tối ưu ảnh, "ngăn kéo" file và nhiều tiện ích khác.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://github.com/maclifevn/MFinder-Releases/releases/latest/download/MFinder.dmg">
+              <svg aria-hidden="true"><use href="#icon-download"></use></svg>
+              Tải bản thử nghiệm
+            </a>
+            <a class="button button-secondary" href="#features">Khám phá tính năng</a>
+          </div>
+          <ul class="hero-meta" aria-label="Thông tin tương thích">
+            <li><svg aria-hidden="true"><use href="#icon-check"></use></svg> macOS 26+</li>
+            <li><svg aria-hidden="true"><use href="#icon-check"></use></svg> Apple Silicon &amp; Intel</li>
+            <li><svg aria-hidden="true"><use href="#icon-check"></use></svg> Xử lý tại máy</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Giao diện MFinder">
+          <div class="product-glow"></div>
+          <img class="hero-window" src="assets/screenshots/overview.png" alt="Màn hình Tổng quan của MFinder" width="1984" height="1464" fetchpriority="high">
+          <img class="floating-search" src="assets/screenshots/search-overlay.png" alt="Thanh tìm kiếm MFinder với kết quả tức thì" width="1360" height="982" fetchpriority="high">
+          <img class="floating-shelf" src="assets/screenshots/shelf-panel.png" alt="File Shelf chứa các file tạm" width="436" height="836" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Điểm nổi bật">
+      <div class="container trust-grid">
+        <div><strong>1 menu</strong><span>Mọi thao tác Finder</span></div>
+        <div><strong>⌥Space</strong><span>Tìm kiếm mọi lúc</span></div>
+        <div><strong>149</strong><span>Bài kiểm thử tự động</span></div>
+        <div><strong>100%</strong><span>Xử lý tại máy</span></div>
+      </div>
+    </section>
+
+    <section id="features" class="section section-intro">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Vẫn là Finder mặc định, nhưng nhiều tính năng hơn</div>
+          <h2>Ít chuyển app. Ít thao tác thừa.</h2>
+          <p>MFinder đặt những công cụ thường dùng nhất vào đúng ngữ cảnh — ngay trên file, thư mục và cửa sổ Finder đang mở.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-card-large reveal">
+            <div class="feature-icon blue"><svg aria-hidden="true"><use href="#icon-search"></use></svg></div>
+            <span class="feature-kicker">Tìm kiếm hợp nhất</span>
+            <h3>Tìm đúng file trước khi nhớ ra tên.</h3>
+            <p>Nhấn <kbd>⌥Space</kbd> từ bất kỳ đâu. MFinder kết hợp Spotlight, quét filesystem, cú pháp lọc nhanh và chỉ mục ngữ nghĩa để tìm cả những file Spotlight bỏ sót.</p>
+            <ul class="mini-list">
+              <li>Tìm trong thư mục hiện tại hoặc toàn bộ máy Mac</li>
+              <li>Lọc theo loại, kích thước và thời gian</li>
+              <li>Quick Look hoặc kéo kết quả thẳng vào Finder</li>
+            </ul>
+            <div class="shot-frame search-frame">
+              <img src="assets/screenshots/search-overlay.png" alt="Kết quả tìm kiếm PNG trong MFinder" width="1360" height="982" loading="lazy">
+            </div>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon cyan"><svg aria-hidden="true"><use href="#icon-sparkles"></use></svg></div>
+            <span class="feature-kicker">Tìm kiếm AI</span>
+            <h3>Tìm theo ý nghĩa, không chỉ tên file.</h3>
+            <p>Mô tả thứ bạn cần bằng ngôn ngữ tự nhiên. Khi Apple Intelligence khả dụng, MFinder hiểu ý định và xếp hạng nội dung phù hợp ngay trên máy.</p>
+            <div class="privacy-chip"><svg aria-hidden="true"><use href="#icon-lock"></use></svg> Không gửi file lên cloud</div>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon violet"><svg aria-hidden="true"><use href="#icon-terminal"></use></svg></div>
+            <span class="feature-kicker">Developer tools</span>
+            <h3>Mở đúng thư mục trong Terminal.</h3>
+            <p>Terminal, iTerm2, Alacritty, Warp, Ghostty và nhiều terminal khác. Path được truyền an toàn, kể cả khi có dấu cách hoặc ký tự đặc biệt.</p>
+            <div class="terminal-row" aria-hidden="true"><span>›_</span><code>cd ~/Projects/MFinder</code></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section finder-actions-section">
+      <div class="container split-showcase">
+        <div class="showcase-copy reveal">
+          <div class="section-icon"><svg aria-hidden="true"><use href="#icon-cursor"></use></svg></div>
+          <div class="eyebrow">Finder Actions</div>
+          <h2>Một menu gọn.<br>Đủ mọi việc.</h2>
+          <p>Menu chuột phải tự thay đổi theo file đang chọn. Chỉ hiện những lệnh có ý nghĩa, không biến Finder thành một bảng điều khiển rối mắt.</p>
+          <div class="action-pills">
+            <span>Mở trong Terminal</span><span>Tạo file mới</span><span>Sao chép đường dẫn</span><span>Hiện file ẩn</span><span>Dọn file rác</span><span>Tối ưu ảnh</span>
+          </div>
+        </div>
+        <div class="showcase-visual reveal">
+          <div class="window-frame">
+            <img src="assets/screenshots/finderActions.png" alt="Cài đặt menu thao tác Finder trong MFinder" width="1984" height="1464" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="shelf" class="section shelf-section">
+      <div class="container split-showcase reverse">
+        <div class="showcase-visual shelf-stage reveal">
+          <div class="window-frame">
+            <img src="assets/screenshots/fileShelf.png" alt="Cài đặt File Shelf của MFinder" width="1984" height="1464" loading="lazy">
+          </div>
+          <img class="shelf-demo" src="assets/screenshots/shelf-panel.png" alt="File Shelf nhỏ gọn ở cạnh màn hình" width="436" height="836" loading="lazy">
+        </div>
+        <div class="showcase-copy reveal">
+          <div class="section-icon"><svg aria-hidden="true"><use href="#icon-tray"></use></svg></div>
+          <div class="eyebrow">File Shelf</div>
+          <h2>Đặt file vào ngăn kéo.<br>Đi tới nơi cần đến.</h2>
+          <p>Một kệ tạm kiểu Yoink xuất hiện ở cạnh màn hình khi bạn kéo file tới. Giữ file trong tầm tay khi chuyển giữa nhiều thư mục, màn hình hoặc ứng dụng.</p>
+          <ul class="check-list">
+            <li>Chỉ mở khi có ngữ cảnh kéo file thật</li>
+            <li>Chọn vị trí trái/phải và vùng trên/giữa/dưới</li>
+            <li>Tự ẩn mượt sau khi kéo thành công</li>
+            <li>Quick Look, mở, hiện trong Finder và sao chép path</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="quick-look" class="section media-section">
+      <div class="container">
+        <div class="section-heading compact reveal">
+          <div class="eyebrow">Xem trước &amp; lưu trữ</div>
+          <h2>Nhấn Space. Biết bên trong có gì.</h2>
+          <p>Quick Look đúng nghĩa: xem trước mà không mở, không giải nén và không chạy nội dung không tin cậy.</p>
+        </div>
+
+        <div class="duo-grid">
+          <article class="media-card reveal">
+            <div class="media-card-copy">
+              <div class="media-card-label">
+                <div class="feature-icon blue"><svg aria-hidden="true"><use href="#icon-eye"></use></svg></div>
+                <span class="feature-kicker">Quick Look</span>
+              </div>
+              <h3>Markdown đẹp. Archive rõ ràng.</h3>
+              <p>Render <code>.md</code>, <code>.mdx</code>, <code>.qmd</code>, <code>.rmd</code> và liệt kê ZIP, 7Z, RAR, GZ, TAR.GZ ngay trong Finder.</p>
+            </div>
+            <img src="assets/screenshots/quicklook-markdown-preview.png" alt="Quick Look render file Markdown FEATURE_ROADMAP.md ngay trong Finder" width="2044" height="1750" loading="lazy">
+          </article>
+
+          <article class="media-card reveal">
+            <div class="media-card-copy">
+              <div class="media-card-label">
+                <div class="feature-icon cyan"><svg aria-hidden="true"><use href="#icon-archive"></use></svg></div>
+                <span class="feature-kicker">Archive tích hợp</span>
+              </div>
+              <h3>Không cần cài thêm Keka.</h3>
+              <p>7-Zip được đóng gói và ký cùng MFinder. Nén ZIP/7Z, giải nén nhiều định dạng và kiểm soát rõ thư mục đích lẫn file trùng tên.</p>
+            </div>
+            <img src="assets/screenshots/archive-rar-preview.png" alt="Quick Look liệt kê nội dung file RAR mà không cần giải nén" width="2044" height="1750" loading="lazy">
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section images-section">
+      <div class="container split-showcase image-showcase">
+        <div class="showcase-copy reveal">
+          <div class="section-icon"><svg aria-hidden="true"><use href="#icon-image"></use></svg></div>
+          <div class="eyebrow">Hình ảnh</div>
+          <h2>Nhẹ hơn, đúng định dạng hơn.</h2>
+          <p>Nén, resize và chuyển đổi JPEG, HEIC, WebP theo lô. MFinder ước tính kích thước trước khi chạy, cho phép xóa GPS và chỉ chuyển file gốc vào Thùng rác sau khi output thành công.</p>
+          <div class="format-row"><span>JPEG</span><span>HEIC</span><span>WebP</span></div>
+        </div>
+        <div class="showcase-visual reveal">
+          <div class="window-frame image-window">
+            <img src="assets/screenshots/image-tools.png" alt="Bảng tối ưu và chuyển đổi ảnh của MFinder" width="1300" height="1284" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section utility-section">
+      <div class="container">
+        <div class="section-heading compact reveal">
+          <div class="eyebrow">Những chi tiết tạo khác biệt</div>
+          <h2>Công việc nhỏ, làm nhanh hơn mỗi ngày.</h2>
+        </div>
+        <div class="utility-grid">
+          <article class="utility-card reveal"><svg aria-hidden="true"><use href="#icon-scissors"></use></svg><h3>Cut &amp; Paste</h3><p>Dùng <kbd>⌘X</kbd> và <kbd>⌘V</kbd> để di chuyển file như chỉnh sửa văn bản, vẫn hoàn tác bằng Finder.</p></article>
+          <article class="utility-card reveal"><svg aria-hidden="true"><use href="#icon-rename"></use></svg><h3>Đổi tên hàng loạt</h3><p>Find/Replace, Regex, tiền tố, hậu tố và đánh số với bản xem trước trước khi áp dụng.</p></article>
+          <article class="utility-card reveal"><svg aria-hidden="true"><use href="#icon-file-plus"></use></svg><h3>Tạo file mới</h3><p>Tạo nhanh TXT, Markdown hoặc tài liệu Word rỗng hợp lệ trong thư mục hiện tại.</p></article>
+          <article class="utility-card reveal"><svg aria-hidden="true"><use href="#icon-copy"></use></svg><h3>Sao chép đúng thứ cần</h3><p>Tên file, đường dẫn đầy đủ, shell-escaped path hoặc lệnh <code>cd</code>.</p></article>
+          <article class="utility-card reveal"><svg aria-hidden="true"><use href="#icon-clean"></use></svg><h3>Dọn file rác</h3><p>Quét <code>.DS_Store</code> và các file rác đã biết mà không đi vào symlink hoặc app bundle.</p></article>
+          <article class="utility-card reveal"><svg aria-hidden="true"><use href="#icon-film"></use></svg><h3>Media cũ</h3><p>Phát hiện QuickLookVideo và hướng dẫn khôi phục thumbnail, metadata cho MKV, WebM, AVI và nhiều định dạng cũ.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy-section">
+      <div class="container privacy-shell reveal">
+        <div class="privacy-copy">
+          <div class="eyebrow light">Riêng tư theo thiết kế</div>
+          <h2>File của bạn ở lại trên máy Mac.</h2>
+          <p>Tìm kiếm, semantic index, đổi tên, nén và xử lý ảnh đều chạy cục bộ. MFinder không có tài khoản, không upload file và không phụ thuộc dịch vụ cloud để thực hiện công việc cốt lõi.</p>
+        </div>
+        <div class="privacy-points">
+          <div><svg aria-hidden="true"><use href="#icon-lock"></use></svg><span><strong>On-device</strong>Dữ liệu và chỉ mục lưu trên máy.</span></div>
+          <div><svg aria-hidden="true"><use href="#icon-shield"></use></svg><span><strong>Không ghi đè âm thầm</strong>Keep Both và staging an toàn cho file output.</span></div>
+          <div><svg aria-hidden="true"><use href="#icon-eye-off"></use></svg><span><strong>Quick Look an toàn</strong>Chặn script, tài nguyên mạng và nội dung thực thi.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section requirements-section">
+      <div class="container requirements-grid">
+        <div class="section-heading compact reveal">
+          <div class="eyebrow">Yêu cầu hệ thống</div>
+          <h2>Sẵn sàng cho macOS mới.</h2>
+          <p>MFinder là ứng dụng menu bar thuần Swift, hỗ trợ cả Apple Silicon và Intel.</p>
+        </div>
+        <div class="requirements-card reveal">
+          <div><span>Hệ điều hành</span><strong>macOS 26 trở lên</strong></div>
+          <div><span>Finder menu</span><strong>Bật Finder Extension</strong></div>
+          <div><span>Cut &amp; Paste</span><strong>Quyền Trợ năng</strong></div>
+          <div><span>AI Search</span><strong>Apple Intelligence · tùy chọn</strong></div>
+          <div><span>Nén &amp; giải nén</span><strong>7-Zip tích hợp sẵn</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="container faq-grid">
+        <div class="section-heading compact reveal"><div class="eyebrow">Câu hỏi thường gặp</div><h2>Gọn gàng, minh bạch.</h2></div>
+        <div class="faq-list reveal">
+          <details><summary>MFinder có thay thế Finder không?</summary><p>Không. MFinder là companion app bổ sung menu, tìm kiếm, Quick Look và các workflow còn thiếu cho Finder mặc định.</p></details>
+          <details><summary>Có cần cài Keka hoặc 7-Zip riêng không?</summary><p>Không. Engine 7-Zip đã được đóng gói và ký trong MFinder để nén và giải nén trực tiếp.</p></details>
+          <details><summary>MFinder có gửi tên file hoặc nội dung lên server không?</summary><p>Không. Các chức năng cốt lõi chạy tại máy; semantic search sử dụng embedding và chỉ mục cục bộ.</p></details>
+          <details><summary>QuickLookVideo có được nhúng trong app không?</summary><p>Không. MFinder chỉ phát hiện và hỗ trợ cấu hình QuickLookVideo đã cài vì kiến trúc Media Extension, kích thước codec và giấy phép của dự án này.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container final-cta-shell reveal">
+        <img src="assets/brand/mfinder-icon.png" alt="Icon MFinder" width="160" height="160" loading="lazy">
+        <div><div class="eyebrow light">MFinder cho macOS</div><h2>Finder bạn quen.<br>Giờ làm được nhiều hơn.</h2></div>
+        <a class="button button-light" href="https://github.com/maclifevn/MFinder-Releases/releases/latest/download/MFinder.dmg"><svg aria-hidden="true"><use href="#icon-download"></use></svg>Tải MFinder</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><img src="assets/brand/mfinder-icon.png" alt="" width="44" height="44"><div><strong>MFinder</strong><span>Công cụ file mạnh mẽ, tích hợp vào Finder.</span></div></div>
+      <div class="made-by"><span>Một sản phẩm của</span><img src="assets/brand/maclife-mark.svg" alt="MacLife" width="86" height="28"></div>
+      <div class="footer-links"><a href="#features">Tính năng</a><a href="#privacy">Riêng tư</a><a href="#top">Lên đầu trang ↑</a></div>
+    </div>
+  </footer>
+
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14"/></symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></symbol>
+    <symbol id="icon-sparkles" viewBox="0 0 24 24"><path d="m12 2 1.4 4.1L17.5 7.5l-4.1 1.4L12 13l-1.4-4.1-4.1-1.4 4.1-1.4L12 2Zm7 11 .8 2.2L22 16l-2.2.8L19 19l-.8-2.2L16 16l2.2-.8L19 13ZM6 14l1.1 3L10 18l-2.9 1L6 22l-1.1-3L2 18l2.9-1L6 14Z"/></symbol>
+    <symbol id="icon-terminal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m7 9 3 3-3 3m6 0h4"/></symbol>
+    <symbol id="icon-cursor" viewBox="0 0 24 24"><path d="m5 3 6.5 15 2.2-5.2L19 10.5 5 3Z"/><path d="m14 14 4 6"/></symbol>
+    <symbol id="icon-tray" viewBox="0 0 24 24"><path d="M4 12 6.5 5h11l2.5 7v7H4v-7Z"/><path d="M4 12h5l1.5 2h3l1.5-2h5"/></symbol>
+    <symbol id="icon-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></symbol>
+    <symbol id="icon-archive" viewBox="0 0 24 24"><path d="M4 7h16v13H4V7Zm-1-4h18v4H3V3Z"/><path d="M9 11h6"/></symbol>
+    <symbol id="icon-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m5 18 5-5 3 3 2-2 4 4"/></symbol>
+    <symbol id="icon-scissors" viewBox="0 0 24 24"><circle cx="6" cy="7" r="3"/><circle cx="6" cy="17" r="3"/><path d="m9 8.5 11 6M9 15.5 20 9"/></symbol>
+    <symbol id="icon-rename" viewBox="0 0 24 24"><path d="M6 4h12M6 20h12M12 4v16m-3-5 3 3 3-3"/></symbol>
+    <symbol id="icon-file-plus" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v5h5M9 14h6m-3-3v6"/></symbol>
+    <symbol id="icon-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+    <symbol id="icon-clean" viewBox="0 0 24 24"><path d="m7 4 10 10-4 4L3 8l4-4Z"/><path d="m13 18 2 2m-7-7-4 7h8"/></symbol>
+    <symbol id="icon-film" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16m10-16v16M3 9h4m10 0h4M3 15h4m10 0h4"/></symbol>
+    <symbol id="icon-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5.2 3.2 9.1 8 11 4.8-1.9 8-5.8 8-11V5l-8-3Z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></symbol>
+    <symbol id="icon-eye-off" viewBox="0 0 24 24"><path d="m3 3 18 18M10.6 6.2A10 10 0 0 1 12 6c6.5 0 10 6 10 6a17 17 0 0 1-3.2 3.8M6.2 6.2A17.2 17.2 0 0 0 2 12s3.5 6 10 6c1 0 2-.2 2.8-.4M9.8 9.8a3 3 0 0 0 4.4 4.4"/></symbol>
+  </svg>
+  <script src="script.js"></script>
+</body>
+</html>
