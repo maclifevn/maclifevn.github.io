@@ -119,6 +119,23 @@ svg { width: 1.2em; height: 1.2em; fill: none; stroke: currentColor; stroke-widt
 .window-frame { padding: 10px; border: 1px solid rgba(25,63,103,.12); border-radius: 26px; background: rgba(255,255,255,.72); box-shadow: var(--shadow); }
 .window-frame img { border-radius: 20px; }
 
+.pdf-section { background: linear-gradient(#ffffff, #f4f8fd); }
+.pdf-frame { padding: 20px; }
+.pdf-mock { display: grid; gap: 18px; padding: 20px; border-radius: 18px; background: #fff; border: 1px solid var(--line); }
+.pdf-mock-head { display: flex; align-items: center; gap: 12px; }
+.pdf-badge { flex: 0 0 auto; display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px; color: #fff; background: linear-gradient(145deg, #168eff, #086fea); box-shadow: 0 10px 24px rgba(8,124,255,.2); }
+.pdf-badge svg { width: 22px; height: 22px; }
+.pdf-mock-title strong { display: block; font-size: 18px; letter-spacing: -.02em; }
+.pdf-mock-title span { display: block; margin-top: 2px; color: var(--muted); font-size: 12.5px; }
+.pdf-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; padding: 16px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface-soft); }
+.pdf-page { position: relative; aspect-ratio: 3 / 4; border: 1px solid var(--line); border-radius: 9px; background: linear-gradient(160deg, #fdfefe, #eaf0f7); box-shadow: inset 0 1px rgba(255,255,255,.85); }
+.pdf-page > span { position: absolute; top: 7px; left: 7px; display: grid; place-items: center; min-width: 20px; height: 20px; padding: 0 5px; border-radius: 999px; background: var(--blue); color: #fff; font-size: 11px; font-weight: 750; }
+.pdf-page-drop { display: grid; place-content: center; justify-items: center; gap: 5px; border: 1.6px dashed var(--blue); background: rgba(8,124,255,.05); color: var(--blue-deep); text-align: center; }
+.pdf-page-drop svg { width: 20px; height: 20px; }
+.pdf-page-drop em { font-style: normal; font-size: 10px; font-weight: 660; line-height: 1.2; padding: 0 4px; }
+.pdf-mock-foot { display: flex; align-items: center; justify-content: space-between; color: var(--muted); font-size: 12.5px; }
+.pdf-cta { padding: 8px 14px; border-radius: 10px; background: var(--blue); color: #fff; font-weight: 680; }
+
 .shelf-section { overflow: hidden; background: #fff; }
 .shelf-stage { position: relative; }
 .shelf-stage .window-frame { transform: translateX(-4%); }
