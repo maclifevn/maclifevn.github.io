@@ -107,8 +107,7 @@ try {
         copy: document.querySelector('.hero-copy')?.getBoundingClientRect().toJSON(),
         visual: document.querySelector('.hero-visual')?.getBoundingClientRect().toJSON(),
         heroWindow: document.querySelector('.hero-window')?.getBoundingClientRect().toJSON(),
-        search: document.querySelector('.floating-search')?.getBoundingClientRect().toJSON(),
-        shelf: document.querySelector('.floating-shelf')?.getBoundingClientRect().toJSON()
+        search: document.querySelector('.floating-search')?.getBoundingClientRect().toJSON()
       })`,
       returnByValue: true,
     });

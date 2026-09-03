@@ -12,8 +12,8 @@ python3 -m http.server 8080
 
 Mở `http://localhost:8080/Website/`.
 
-CTA tải app trỏ tới bản build trong `dist/`, vì vậy nên serve từ thư mục gốc
-thay vì chỉ serve riêng thư mục `Website`.
+CTA tải app trỏ tới DMG mới nhất trên GitHub Releases. Có thể serve trực tiếp
+thư mục `Website` hoặc serve từ thư mục gốc như ví dụ trên.
 
 ## Chụp kiểm tra responsive
 

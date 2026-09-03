@@ -22,6 +22,12 @@ nav?.querySelectorAll('a').forEach((link) => {
   });
 });
 
+document.addEventListener('keydown', (event) => {
+  if (event.key !== 'Escape') return;
+  nav?.classList.remove('is-open');
+  navToggle?.setAttribute('aria-expanded', 'false');
+});
+
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const revealItems = document.querySelectorAll('.reveal');
 
