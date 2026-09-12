@@ -1,0 +1,1 @@
+Tối ưu App Switcher
