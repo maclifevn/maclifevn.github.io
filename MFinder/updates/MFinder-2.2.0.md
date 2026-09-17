@@ -3,7 +3,7 @@
 ## English
 
 - Notes now has formatting shortcuts: ⌘B bold, ⌘I italic, ⌘E code, ⇧⌘X strikethrough, ⇧⌘H highlight, ⌥⌘1–3 headings, ⇧⌘L bulleted and ⇧⌘N numbered lists, ⇧⌘U quote, and Tab / ⇧Tab to indent a list item. Every command is also in the new Aa menu on the note and in the right-click menu, and each is one Undo step. Notes stay plain Markdown, so nothing changes in how they are stored or exported.
-- Notes show links: “[text](url)” and bare web addresses are underlined, and ⌘-click opens them. “==highlighted==” text gets a marker stroke, “---” draws a divider, and numbered lists read as quietly as bullets.
+- Notes show links: Markdown links and bare web addresses are underlined, and ⌘-click opens them. “==highlighted==” text gets a marker stroke, “---” draws a divider, and numbered lists read as quietly as bullets.
 - Note colours: Black and Gray replace Rose and Sand. Notes already in Rose or Sand keep their colour until you change it.
 - Notes that auto-hide when the pointer leaves now slide back to the edge instead of vanishing in one frame, and an open note's shadow no longer ends in a hard line over a white window.
 - The Play button in MFinder Preview shows a countdown ring during a slideshow, filling over the interval set in Settings.
@@ -16,7 +16,7 @@
 ## Tiếng Việt
 
 - Notes có phím tắt định dạng: ⌘B đậm, ⌘I nghiêng, ⌘E mã, ⇧⌘X gạch ngang, ⇧⌘H tô sáng, ⌥⌘1–3 tiêu đề, ⇧⌘L danh sách và ⇧⌘N danh sách đánh số, ⇧⌘U trích dẫn, Tab / ⇧Tab thụt lề mục danh sách. Mọi lệnh cũng có trong menu Aa mới trên note và menu chuột phải; mỗi lệnh là một bước Hoàn tác. Note vẫn là Markdown thuần nên cách lưu và xuất không đổi.
-- Notes hiện link: “[chữ](url)” và địa chỉ web trần được gạch chân, ⌘-click để mở. Chữ “==tô sáng==” có nền đánh dấu, “---” vẽ đường kẻ ngang, danh sách đánh số hiển thị mờ như dấu đầu dòng.
+- Notes hiện link: link Markdown và địa chỉ web trần được gạch chân, ⌘-click để mở. Chữ “==tô sáng==” có nền đánh dấu, “---” vẽ đường kẻ ngang, danh sách đánh số hiển thị mờ như dấu đầu dòng.
 - Màu note: Đen và Xám thay cho Hồng và Vàng cát. Note đang dùng Hồng hoặc Vàng cát giữ nguyên màu cho tới khi bạn đổi.
 - Note tự ẩn khi rê chuột ra ngoài giờ trượt về mép thay vì biến mất tức thì, và bóng của note đang mở không còn bị cắt thành đường thẳng trên nền trắng.
 - Nút Play trong MFinder Preview hiện vòng đếm ngược khi chạy trình chiếu, đầy dần theo số giây đã chọn trong Cài đặt.
