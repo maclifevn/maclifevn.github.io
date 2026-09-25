@@ -3,6 +3,17 @@
     <channel>
         <title>MFinder</title>
         <item>
+            <title>2.2.11</title>
+            <pubDate>Fri, 25 Sep 2026 21:17:08 +0700</pubDate>
+            <link>https://maclifevn.github.io/MFinder/</link>
+            <sparkle:criticalUpdate/>
+            <sparkle:version>92</sparkle:version>
+            <sparkle:shortVersionString>2.2.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink sparkle:edSignature="cDW7ea7O3WQvXBsC3OFtvviT15s3R5DBWGQkpTzbBIHHhsbi2BTpFaEqJuRda3CTLMGhy0jUOx/zAjI7pO5gCA==" sparkle:length="774">https://maclifevn.github.io/MFinder/updates/MFinder-2.2.11.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/maclifevn/MFinder-Releases/releases/download/v2.2.11/MFinder-2.2.11.zip" length="40236484" type="application/octet-stream" sparkle:edSignature="Du4NlluT3v6dciQB3kGfSiJIi7PuZEUOTa1ji19aaQlmHjcMqT6vhOSHM/bkteTOS5BU7Rjts54EEIkrvTWVCQ=="/>
+        </item>
+        <item>
             <title>2.2.10</title>
             <pubDate>Fri, 25 Sep 2026 13:24:39 +0700</pubDate>
             <link>https://maclifevn.github.io/MFinder/</link>
@@ -46,20 +57,9 @@
             <sparkle:releaseNotesLink sparkle:edSignature="dqFHbw/EQuKBjlFpG6mFJTarI+LcTNleVkUtPJtBZy5ZQFcG2LlGkM8DlKxDzmLmOQI7mC8gk7TtlFvAhpTCAQ==" sparkle:length="2985">https://maclifevn.github.io/MFinder/updates/MFinder-2.2.7.md</sparkle:releaseNotesLink>
             <enclosure url="https://github.com/maclifevn/MFinder-Releases/releases/download/v2.2.7/MFinder-2.2.7.zip" length="38397917" type="application/octet-stream" sparkle:edSignature="9J5f1TjpFPzd7QvkcLKY9aOmgIL5Zbd2p8qppj5lTJ4ndBRIZoMQraiktHg0uK++7SDW0vXJKbhuYXQF0FX9CA=="/>
         </item>
-        <item>
-            <title>2.2.6</title>
-            <pubDate>Mon, 21 Sep 2026 06:42:44 +0700</pubDate>
-            <link>https://maclifevn.github.io/MFinder/</link>
-            <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
-            <sparkle:version>87</sparkle:version>
-            <sparkle:shortVersionString>2.2.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink sparkle:edSignature="3MpUomDAMszsi130P3WXZBF5f3yhSl09f3DURAocjpYW9C/IPt6Iw7ZglmATxopFRx9bXw9JDZellg5t8j0rCA==" sparkle:length="1274">https://maclifevn.github.io/MFinder/updates/MFinder-2.2.6.md</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/maclifevn/MFinder-Releases/releases/download/v2.2.6/MFinder-2.2.6.zip" length="36446034" type="application/octet-stream" sparkle:edSignature="QvIjXKst7+YQJea9pULg+vKeK2TGIJ1bnkoTV0qt6ywRj9kKzdTxLDn4NPkAmvQ7722ftgnC/X8pza5dZsA4Dg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: vWpE9YdnZ1rs63qCkutZARsAKuSmHJEKPjAYetILQIMWazwkBd6m7gxBsrNqnlDbB+xkGP5BOvneD9geuJ+OCw==
-length: 5263
+edSignature: 48iamjNveSIFUlQOIyB4tV3iX+rYkJ/kza8LsRyMF0KcoKOEKU4sjOiYJes0nx+PTmv4mboohnomX7yzE0bwCg==
+length: 5224
 -->
